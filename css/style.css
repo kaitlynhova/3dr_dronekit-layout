@@ -1,4 +1,4 @@
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -52,9 +52,9 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main components 
+Main components
 
 -------------------------------- */
 .cd-main-content, .cd-main-header {
@@ -170,6 +170,7 @@ Main components
   display: block;
   width: 44px;
   height: 44px;
+  color: transparent !important;
   overflow: hidden;
   white-space: nowrap;
   /* hide text */
@@ -997,7 +998,7 @@ Main components
   top: 0;
   left: 0;
   cursor: pointer;
-  background-color: rgba(105, 170, 111, 0.8);
+  background-color: rgba(36, 157, 216, 0.8);
   visibility: hidden;
   opacity: 0;
   -webkit-backface-visibility: hidden;
@@ -1037,9 +1038,9 @@ Main components
   }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-support for no js 
+support for no js
 
 -------------------------------- */
 .no-js .cd-primary-nav {
