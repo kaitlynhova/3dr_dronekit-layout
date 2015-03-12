@@ -527,7 +527,7 @@ Main components
 @media only screen and (min-width: 1170px) {
   .cd-primary-nav {
     position: static;
-    padding: 0 150px 0 0;
+    padding-right: 20px;
     height: auto;
     width: auto;
     float: right;
@@ -1002,7 +1002,7 @@ Main components
   top: 0;
   left: 0;
   cursor: pointer;
-  background-color: rgba(105, 170, 111, 0.8);
+  background-color: rgba(36, 157, 216, 0.8);
   visibility: hidden;
   opacity: 0;
   -webkit-backface-visibility: hidden;
