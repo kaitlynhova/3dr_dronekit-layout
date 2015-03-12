@@ -14,6 +14,23 @@ html {
   height: 100%;
 }
 
+input.sidebar-search{
+  width: 100%;
+  padding: 15px;
+  background-image: url(img/search-guy.png);
+  background-repeat: no-repeat;
+  background-size: 2%;
+  background-position-y: 11px;
+  background-position-x: 10px;
+  padding-left: 58px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: none;
+}
+input.sidebar-search:focus{
+  outline: none;
+}
+
 .my-content{
   padding-top: 80px;
 }
