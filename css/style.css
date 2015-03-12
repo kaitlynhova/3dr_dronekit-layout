@@ -94,13 +94,11 @@ Main components
   background: #e2e3df;
   min-height: 100vh;
   z-index: 2;
-  position:realtive;
-  top: -20px;
 }
 
 .cd-main-header {
   height: 50px;
-  background: gray;
+  background: #ffffff;
   z-index: 3;
 }
 .nav-is-fixed .cd-main-header {
@@ -171,8 +169,8 @@ Main components
   position: relative;
   display: block;
   width: 44px;
-  height: 44px;
   color: transparent !important;
+  height: 44px;
   overflow: hidden;
   white-space: nowrap;
   /* hide text */
@@ -1000,7 +998,7 @@ Main components
   top: 0;
   left: 0;
   cursor: pointer;
-  background-color: rgba(36, 157, 216, 0.8);
+  background-color: rgba(105, 170, 111, 0.8);
   visibility: hidden;
   opacity: 0;
   -webkit-backface-visibility: hidden;
