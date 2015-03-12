@@ -5,6 +5,10 @@ html {
   overflow-x: hidden;
 }
 
+.affix {
+  background: white !important;
+}
+
 .show-subnav{
   display:visible !important;
 }
