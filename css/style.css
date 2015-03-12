@@ -99,7 +99,7 @@ Main components
 
 .cd-main-header {
   height: 50px;
-  background: gray;
+  background: #2d2d2d;
   z-index: 3;
 }
 
@@ -207,6 +207,20 @@ Main components
   border-radius: 50%;
   border: 3px solid #2e3233;
 }
+
+.cd-search-trigger.mobile::before {
+  /* lens */
+  top: 11px;
+  left: 11px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.cd-search-trigger.mobile::after {
+  background: white;
+}
 .cd-search-trigger::after {
   /* handle */
   height: 3px;
@@ -227,6 +241,10 @@ Main components
   width: 100%;
   top: 0;
   left: 0;
+}
+
+.cd-search-trigger.mobile span::before, .cd-search-trigger.mobile span::after {
+  background: white;
 }
 .cd-search-trigger span::before, .cd-search-trigger span::after {
   /* close icon */
@@ -296,7 +314,7 @@ Main components
   display: inline-block;
   height: 3px;
   width: 24px;
-  background: #2e3233;
+  background: white;
 }
 .cd-nav-trigger span {
   /* line in the center */
@@ -343,7 +361,7 @@ Main components
 }
 .cd-nav-trigger.nav-is-visible span::before, .cd-nav-trigger.nav-is-visible span::after {
   /* keep visible other 2 lines */
-  background: #2e3233;
+  background: white;
 }
 .cd-nav-trigger.nav-is-visible span::before {
   -webkit-transform: translateX(4px) translateY(-3px) rotate(45deg);
