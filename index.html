@@ -6,7 +6,7 @@
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<link rel="stylesheet" href="css/dronekit.css"> 
+	<link rel="stylesheet" href="css/dronekit.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
@@ -22,12 +22,41 @@
 		</ul> <!-- cd-header-buttons -->
 	</header>
 
-	<main class="cd-main-content">
-		<div class="row">
-        <div class="col-md-3  hidden-md  hidden-sm">.col-md-3</div>
-        <div class="col-md-9">.col-md-9</div>
-      </div>
-	</main>
+	<div class="row">
+		<div id="my-nav">
+			<div class="col-md-2 hidden-sm">
+	      <ul class="nav nav-list affix">
+	        <li><a href="#moose">Moose</a></li>
+	        <li><a href="#bear">Bear</a></li>
+	        <li><a href="#beaver">Beaver</a></li>
+	        <li><a href="#raccoon">Raccoon</a></li>
+	        <li><a href="#bobcat">Bobcat</a></li>
+	      </ul>
+	    </div>
+		</div>
+	  <div class="col-md-10 ">
+			<main class="cd-main-content">
+				<div class="my-content">
+					<section id="moose">
+							Mooses are cool and big and stuff.
+					</section>
+					<section id="bear">
+							You better stay away from bears, they are bad news.
+					</section>
+					<section id="beaver">
+							Beavers like to slap their tail to scare predators and children.
+					</section>
+					<section id="raccoon">
+						Raccoons like french fries, don't ask me how I know.
+					</section>
+					<section id="bobcat">
+						I would like to know if bobcats go crazy for catnip like my house cat does.
+					</section>
+				</div>
+			</main>
+		</div>
+  </div>
+
 
 	<div class="cd-overlay"></div>
 
@@ -260,5 +289,7 @@
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scrollspy.js"></script>
 </body>
 </html>
