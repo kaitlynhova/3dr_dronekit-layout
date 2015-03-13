@@ -95,6 +95,8 @@ Main components
   height: 50px;
   background: #2d2d2d;
   z-index: 3;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-is-fixed .cd-main-header {
