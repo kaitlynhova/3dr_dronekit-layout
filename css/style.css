@@ -953,8 +953,10 @@ Main components
   transition: opacity .3s 0s, visibility 0s .3s;
 }
 .cd-search form {
-  height: 100%;
   width: 100%;
+  position: fixed;
+  width: 100%;
+  height: 50px;
 }
 .cd-search input {
   border-radius: 0;
