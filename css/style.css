@@ -106,7 +106,7 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
   .cd-logo {
-    top: 26px;
+    top: 30px;
     left: 4em;
   }
 }
@@ -561,6 +561,7 @@ Main components
   .cd-primary-nav > li {
     float: left;
     margin-left: 3em;
+    list-style: none;
   }
   .cd-primary-nav > li > a {
     /* main navigation buttons style */
