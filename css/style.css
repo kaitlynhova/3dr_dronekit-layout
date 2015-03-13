@@ -3,12 +3,6 @@
 Primary style
 
 -------------------------------- */
-*, *::after, *::before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 html {
   font-size: 62.5%;
 }
@@ -388,7 +382,7 @@ Main components
   top: 0;
   right: 0;
   height: 100%;
-  width: 260px;
+  width: 300px;
   background: #2e3233;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
