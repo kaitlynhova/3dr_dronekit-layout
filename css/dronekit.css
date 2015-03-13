@@ -5,6 +5,10 @@ html {
   overflow-x: hidden;
 }
 
+.content-section {
+  padding-top: 150px;
+}
+
 .affix {
   background: white !important;
 }
